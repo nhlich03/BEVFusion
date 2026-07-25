@@ -1,0 +1,12 @@
+data/
+VinFast - data sample/
+
+bevfusion-main/runs/vinfast-map-seg/latest.pth
+bevfusion-main/runs/vinfast-map-seg/epoch_1.pth
+bevfusion-main/runs/vinfast-map-seg/predictions.pkl
+
+.DS_Store
+__pycache__/
+**/__pycache__/
+ZIP/
+*.zip

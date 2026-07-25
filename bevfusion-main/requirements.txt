@@ -1,0 +1,20 @@
+# Python >= 3.8, < 3.9
+
+# Core
+torch>=1.9.0,<=1.10.2
+torchvision>=0.10.0,<=0.11.3
+
+# OpenMMLab stack
+mmcv-full==1.4.0
+mmdet==2.20.0
+
+# BEVFusion deps
+tqdm
+pillow==8.4.0
+nuscenes-devkit
+
+# Distributed (torchpack requirement)
+mpi4py==3.0.3
+
+# Torchpack
+torchpack @ git+https://github.com/mit-han-lab/torchpack.git
